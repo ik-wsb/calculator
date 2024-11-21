@@ -6,6 +6,7 @@ class TestCalculator(unittest.TestCase):
     def setUp(self):
         self.calc = Calculator()
 
+
     # Testy dla dodawania
     def test_add_positive_numbers(self):
         self.assertEqual(self.calc.add(2, 3), 5)
